@@ -1,0 +1,23 @@
+Aman Jain
+160050019
+
+------------------------------------------------------------------------------------------------------------
+plot.png ->
+==========
+
+This plot was constructed by running a script on grid10.txt maze with different values of p, ranging from 0 to 1 in steps of 0.05.
+
+We can see that as p increases, the number of actions required to reach the end state decreases ( with some fuctuations, since script takes only single run into account, not average of multiple runs ).
+
+This happens because as p increases, the probability of taking an action specified by the policy increases and thus the number of actions required to reach the end state decreases.
+
+
+------------------------------------------------------------------------------------------------------------
+
+path.png ->
+==========
+
+The path.png represents the path obtained on running code on grid20.txt with p=0.2. We can see that this path deviates from the optimal path but eventually reaches the goal state.
+This happens because at each state there is some probability of taking a valid but non-optimal action leading to a different path.
+
+------------------------------------------------------------------------------------------------------------
